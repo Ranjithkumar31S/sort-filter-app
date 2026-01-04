@@ -3,6 +3,41 @@ import { useState } from "react";
 
 export default function Home() {
   const users = ["Ram Kumar", "Yuvaraj", "Ezhilarasan", "Kushal", "Sai Baba", "Ram Raj"];
+  
+  const data = [
+      {
+        name:"Ram Kumar",
+        age:21,
+        department:"HR"
+      },
+      {
+        name:"Yuvaraj",
+        age:25,
+        department:"Finance"
+      },
+      {
+        name:"Kushal",
+        age:23,
+        department:"Development"
+      },
+      {
+        name:"Ram Raj",
+        age:21,
+        department:"Sale"
+      },
+      {
+        name:"Ezhilarasan",
+        age:22,
+        department:"sales"
+      },
+
+  ]
+
+
+
+
+
+
   const [searchUser, setSearchUser] = useState("");
   const [filteredUsers, setFilteredUsers] = useState(users)
   const [ sortOrder, setSortOrder] = useState("asc")
