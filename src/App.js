@@ -1,5 +1,5 @@
 import Home from './pages/Home'
-import Search from './Search';
+import Search from './pages/Search';
 
 function App() {
   return (
